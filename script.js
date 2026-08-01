@@ -3,7 +3,7 @@ const photoFloor = document.querySelector(".photo-floor");
 
 function scatterPhotos() {
     if (window.innerWidth <= 800) {
-        photos.forEach((photo) => {
+        photos.forEach((photo, index) => {
             photo.style.left = "";
             photo.style.top = "";
             photo.style.width = "";
