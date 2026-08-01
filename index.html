@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photography Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Photography Portfolio</h1>
+        <p>Joost de Leeuw  </p>
+    </header>
+    <main class="photo-floor">
+        <img class="photo photo" src="images/thumbnails/photo1.jpg" data-full="images/full/photo1.jpg"
+         alt="Photo 1">
+        <img class="photo photo" src="images/thumbnails/photo2.jpg" data-full="images/full/photo2.jpg" alt="Photo 2">
+        <img class="photo photo" src="images/thumbnails/photo3.jpg" data-full="images/full/photo3.jpg" alt="Photo 3">
+        <img class="photo photo" src="images/thumbnails/photo4.jpg" data-full="images/full/photo4.jpg" alt="Photo 4">
+        <img class="photo photo" src="images/thumbnails/photo5.jpg" data-full="images/full/photo5.jpg" alt="Photo 5">
+        <img class="photo photo" src="images/thumbnails/photo6.jpg" data-full="images/full/photo6.jpg" alt="Photo 6">
+        <img class="photo photo" src="images/thumbnails/photo7.jpg" data-full="images/full/photo7.jpg" alt="Photo 7">
+    </main>
+    <div class="lightbox" id="lightbox">
+    <button
+        class="lightbox-close"
+        id="lightbox-close"
+        aria-label="Close"
+    >
+        ×
+    </button>
+
+    <button
+        class="lightbox-arrow lightbox-previous"
+        id="lightbox-previous"
+        aria-label="Previous photo"
+    >
+        ‹
+    </button>
+
+    <img
+        class="lightbox-image"
+        id="lightbox-image"
+        src=""
+        alt=""
+    >
+
+    <button
+        class="lightbox-arrow lightbox-next"
+        id="lightbox-next"
+        aria-label="Next photo"
+    >
+        ›
+    </button>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
