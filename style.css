@@ -16,7 +16,7 @@ header {
     z-index: 1;
     height: 110px;
     padding: 28px 40px;
-    background: #eee1c0;
+    background: #e9e6e0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -31,6 +31,7 @@ header p {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color:rgba(23, 22, 22, 0.35)
 }
 
 .photo-floor {
@@ -48,8 +49,8 @@ header p {
     max-height: 360px;
     object-fit: cover;
     padding: 8px;
-    background: white;
-    border-radius: 10px
+    background: rgb(236, 230, 230);
+    border-radius: 1px
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     transform-origin: center;

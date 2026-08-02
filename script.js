@@ -30,25 +30,16 @@ function scatterPhotos() {
         Each pair represents a basic position:
         [horizontal percentage, vertical percentage]
     */
-    const positions = [
-    { x: 4, y: 8 }, // 1
-    { x: 23, y: 5 }, // 2
-    { x: 43, y: 10 }, // 3
-    { x: 64, y: 6 }, // 4
-    { x: 82, y: 12 }, // 5
-
-    { x: 10, y: 30 }, // 6
-    { x: 31, y: 26 }, // 7
-    { x: 53, y: 34 }, // 8
-    { x: 74, y: 28 }, // 9
-
-    { x: 6, y: 56 }, // 10
-    { x: 25, y: 63 }, // 11
-    { x: 47, y: 58 }, // 12
-    { x: 68, y: 64 }, // 13
-    { x: 84, y: 55 }, // 14
-
-    { x: 38, y: 78 } // 15
+  const positions = [
+    [0.06, 0.07],
+    [0.31, 0.03],
+    [0.67, 0.06],
+    [0.80, 0.25],
+    [0.46, 0.21],
+    [0.13, 0.38],
+    [0.52, 0.52],
+    [0.26, 0.60],
+    [0.74, 0.58],
 ];
 
     const rotations = [
