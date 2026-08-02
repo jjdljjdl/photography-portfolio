@@ -170,6 +170,7 @@ header {
     display: block;
     max-width: 92vw;
     max-height: 88vh;
+    border-radius: 6px;
     object-fit: contain;
 }
 
