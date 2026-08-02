@@ -48,12 +48,12 @@ header p {
 
 .photo {
     position: absolute;
-    width: clamp(220px, 22vw, 320px);
-    max-height: 360px;
+    width: clamp(200px, 20vw, 290px);
+    max-height: 290px;
     object-fit: cover;
-    padding: 8px;
+    padding: 0px;
     background: rgb(236, 230, 230);
-    border-radius: 14px
+    border-radius: 6px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     transform-origin: center;
@@ -62,7 +62,7 @@ header p {
         transform 0.25s ease,
         box-shadow 0.25s ease;
 }
-
+.photo.portrait {width: clamp(160px, 16vw, 176px); max-height: 260px; padding: 0px;}
 .photo:hover {
     z-index: 1000 !important;
     transform: scale(1.08) rotate(0deg);
