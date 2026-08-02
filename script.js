@@ -31,15 +31,16 @@ function scatterPhotos() {
         [horizontal percentage, vertical percentage]
     */
   const positions = [
-    [0.06, 0.07],
+    [0.04, 0.04],
     [0.31, 0.03],
     [0.67, 0.06],
     [0.80, 0.25],
     [0.46, 0.21],
-    [0.13, 0.38],
+    [0.21, 0.25],
     [0.52, 0.52],
     [0.26, 0.60],
     [0.74, 0.58],
+    [0.03, 0.54]
 ];
 
     const rotations = [

@@ -23,7 +23,7 @@ header {
 header h1 {
     margin: 0;
     font-family: "Cormorant Garamond", serif;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 700;
     font-variant: small-caps;
     letter-spacing: 0.08em;
@@ -219,7 +219,7 @@ header {
 .instagram-link {
     position: absolute;
     left: 50%;
-    bottom: 8px;
+    bottom: 1px;
     transform: translateX(-50%);
 }
 
