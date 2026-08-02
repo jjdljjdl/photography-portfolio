@@ -50,7 +50,7 @@ header p {
     object-fit: cover;
     padding: 8px;
     background: rgb(236, 230, 230);
-    border-radius: 1px
+    border-radius: 14px
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     transform-origin: center;
